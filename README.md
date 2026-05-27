@@ -4,6 +4,8 @@ Plugin para servidores Rust utilizando uMod/Oxide que permite aos jogadores comp
 
 Desenvolvido por MrMadara.
 
+![Banner](https://i.imgur.com/QRQNwsJ.png)
+
 ---
 
 # ✨ Recursos

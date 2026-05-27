@@ -1,1 +1,145 @@
-# Rust-Plugins
+# Tugboats
+
+Plugin para servidores Rust utilizando uMod/Oxide que permite aos jogadores comprar rebocadores diretamente nas Vilas de Pescadores.
+
+Desenvolvido por MrMadara.
+
+---
+
+# ✨ Recursos
+
+* Compra de rebocadores via NPC
+* Interface CUI integrada
+* Sistema de permissões
+* Limite de compras por wipe
+* Combustível inicial configurável
+* Proteção temporária do rebocador
+* Pontos de spawn personalizados
+* Compatível com uMod/Oxide
+
+---
+
+# 📦 Instalação
+
+Coloque o arquivo:
+
+```bash
+Tugboats.cs
+```
+
+em:
+
+```bash
+oxide/plugins/
+```
+
+Depois recarregue o plugin:
+
+```bash
+o.reload Tugboats
+```
+
+---
+
+# 🔑 Permissões
+
+```text
+pixelcraft.tug.use
+pixelcraft.tug.vip
+pixelcraft.tug.admin
+```
+
+## Descrição
+
+| Permissão              | Função                      |
+| ---------------------- | --------------------------- |
+| `pixelcraft.tug.use`   | Permite comprar rebocadores |
+| `pixelcraft.tug.vip`   | Compra gratuita             |
+| `pixelcraft.tug.admin` | Funções administrativas     |
+
+---
+
+# ⚙️ Configuração
+
+Arquivo:
+
+```bash
+oxide/config/Tugboats.json
+```
+
+## Exemplo
+
+```json
+{
+  "Quanto combustível o rebocador deve possuir ao nascer?": 100,
+  "Mostrar no HUD do jogador a localização do rebocador após a compra?": true,
+  "Limitar quantos rebocadores um jogador pode comprar por wipe? [0 = sem limite]": 0
+}
+```
+
+---
+
+# 🛠️ Comandos
+
+## Administrador
+
+```bash
+/btshowspawnpoints
+```
+
+Mostra os pontos de spawn.
+
+```bash
+/btaddspawnpoint
+```
+
+Adiciona um novo ponto de spawn.
+
+---
+
+# 🚤 Funcionamento
+
+1. O jogador conversa com o NPC Boat Vendor
+2. A interface de compra é aberta
+3. O jogador confirma a compra
+4. O rebocador é spawnado automaticamente
+5. O plugin adiciona combustível inicial
+6. O rebocador fica protegido temporariamente
+
+---
+
+# 📁 Arquivos
+
+## Plugin
+
+```bash
+oxide/plugins/Tugboats.cs
+```
+
+## Configuração
+
+```bash
+oxide/config/Tugboats.json
+```
+
+## Dados
+
+```bash
+oxide/data/Tugboats.json
+```
+
+---
+
+# ⚠️ Observações
+
+* Compatível com Rust atual
+* Compatível com uMod/Oxide
+* Recomendado realizar backup antes de atualizar
+
+---
+
+# 👨‍💻 Desenvolvedor
+
+```text
+MrMadara
+```

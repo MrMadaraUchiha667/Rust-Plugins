@@ -1,6 +1,6 @@
 # Tugboats
 
-Plugin para servidores Rust utilizando uMod/Oxide que permite aos jogadores comprar rebocadores diretamente nas Vilas de Pescadores.
+Plugin para servidores Rust utilizando uMod/Oxide que permite aos jogadores comprar Tugboats diretamente nas Vilas de Pescadores.
 
 Desenvolvido por MrMadara.
 
@@ -8,12 +8,12 @@ Desenvolvido por MrMadara.
 
 # ✨ Recursos
 
-* Compra de rebocadores via NPC
+* Compra de Tugboats via NPC
 * Interface CUI integrada
 * Sistema de permissões
 * Limite de compras por wipe
 * Combustível inicial configurável
-* Proteção temporária do rebocador
+* Proteção temporária do Tugboats
 * Pontos de spawn personalizados
 * Compatível com uMod/Oxide
 
@@ -53,7 +53,7 @@ pixelcraft.tug.admin
 
 | Permissão              | Função                      |
 | ---------------------- | --------------------------- |
-| `pixelcraft.tug.use`   | Permite comprar rebocadores |
+| `pixelcraft.tug.use`   | Permite comprar Tugboats    |
 | `pixelcraft.tug.vip`   | Compra gratuita             |
 | `pixelcraft.tug.admin` | Funções administrativas     |
 
@@ -71,9 +71,9 @@ oxide/config/Tugboats.json
 
 ```json
 {
-  "Quanto combustível o rebocador deve possuir ao nascer?": 100,
-  "Mostrar no HUD do jogador a localização do rebocador após a compra?": true,
-  "Limitar quantos rebocadores um jogador pode comprar por wipe? [0 = sem limite]": 0
+  "Quanto combustível o Tugboats deve possuir ao nascer?": 100,
+  "Mostrar no HUD do jogador a localização do Tugboats após a compra?": true,
+  "Limitar quantos Tugboats um jogador pode comprar por wipe? [0 = sem limite]": 0
 }
 ```
 
@@ -102,9 +102,9 @@ Adiciona um novo ponto de spawn.
 1. O jogador conversa com o NPC Boat Vendor
 2. A interface de compra é aberta
 3. O jogador confirma a compra
-4. O rebocador é spawnado automaticamente
+4. O Tugboats é spawnado automaticamente
 5. O plugin adiciona combustível inicial
-6. O rebocador fica protegido temporariamente
+6. O Tugboats fica protegido temporariamente
 
 ---
 

@@ -1,4 +1,4 @@
-﻿using Facepunch;
+using Facepunch;
 using Newtonsoft.Json;
 using Oxide.Core;
 using Oxide.Core.Configuration;
@@ -11,20 +11,19 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
-/* Suggestions
- * Add Econimics to the plugin - Maybe add an item to represent the currency on UI and add it as part of the foreach.
+/* Sugestões
  * 
  */
 
-/* 1.0.8
- * Updated for Feb forced wipe.
+/* 1.0.0
+ * Atualizado para o forced wipe de Fevereiro.
  */
 
 namespace Oxide.Plugins
 {
-	[Info("BuyableTugboats", "MrMadara", "1.0.8")]
+	[Info("Tugboats", "MrMadara", "1.0.0")]
 	[Description("Permite a compra de rebocadores na vila de pescadores.")]
-	class BuyableTugboats : RustPlugin
+	class Tugboats : RustPlugin
 	{
         #region Config
 
